@@ -1,0 +1,32 @@
+TITLE: Browser Extension for Blocking Trackers
+
+OBJECTIVE:
+To develop a browser extension that blocks tracking scripts and enhances user privacy.
+
+INTRODUCTION:
+Online tracking is widely used to monitor user behavior. Blocking trackers improves privacy and security.
+
+ABSTRACT:
+This project implements a browser extension using JavaScript that intercepts web requests and blocks known tracking domains.
+
+METHODOLOGY:
+1. Maintain list of tracking domains
+2. Intercept web requests
+3. Match domain patterns
+4. Block matching requests
+5. Track and display statistics
+
+TOOLS USED:
+- JavaScript
+- Chrome Extension API
+
+RESULTS:
+The extension successfully blocked tracking domains and recorded the number of blocked requests.
+
+CONCLUSION:
+This project demonstrates practical implementation of privacy protection in browsers.
+
+FUTURE ENHANCEMENTS:
+- Add dynamic tracker list
+- Whitelist feature
+- Advanced analytics dashboard

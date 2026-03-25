@@ -1,0 +1,2 @@
+PAYLOADS = ["<script>alert(1)</script>", "' OR '1'='1"]
+TIMEOUT = 5

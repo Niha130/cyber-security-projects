@@ -1,0 +1,32 @@
+TITLE: Linux Hardening Audit Tool
+
+OBJECTIVE:
+To assess the security posture of a Linux system based on key configuration checks.
+
+INTRODUCTION:
+System hardening is essential to reduce attack surfaces and improve system security.
+
+ABSTRACT:
+This project implements a Linux security audit tool that checks firewall status, SSH configuration, and critical file permissions.
+
+METHODOLOGY:
+1. Check firewall status
+2. Verify SSH root login settings
+3. Analyze file permissions
+4. Log results
+5. Generate report
+
+TOOLS USED:
+- Python
+- Linux commands
+
+RESULTS:
+The tool successfully evaluated system security configurations and generated audit reports.
+
+CONCLUSION:
+This project demonstrates system auditing techniques aligned with security best practices.
+
+FUTURE ENHANCEMENTS:
+- Add CIS benchmark scoring
+- Detect unused services
+- Automate hardening recommendations

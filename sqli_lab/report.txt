@@ -1,0 +1,33 @@
+TITLE: SQL Injection Playground and Detection Engine
+
+OBJECTIVE:
+To demonstrate SQL Injection attacks and implement detection mechanisms.
+
+INTRODUCTION:
+SQL Injection is one of the most critical web vulnerabilities that allows attackers to manipulate database queries.
+
+ABSTRACT:
+This project builds a vulnerable login system and integrates a detection engine using regex patterns to identify SQL Injection attempts.
+
+METHODOLOGY:
+1. Create vulnerable SQL query
+2. Accept user input
+3. Detect SQLi patterns
+4. Log attack attempts
+5. Display results
+
+TOOLS USED:
+- Python
+- Flask
+- SQLite
+
+RESULTS:
+The system successfully demonstrated SQL Injection attacks and detected malicious inputs.
+
+CONCLUSION:
+The project highlights the importance of secure coding practices and input validation.
+
+FUTURE ENHANCEMENTS:
+- Implement parameterized queries
+- Add WAF-like filtering
+- Enhance detection rules

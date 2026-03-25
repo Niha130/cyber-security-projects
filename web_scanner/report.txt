@@ -1,0 +1,32 @@
+TITLE: Web Application Vulnerability Scanner
+
+OBJECTIVE:
+To develop a tool that detects common web vulnerabilities such as XSS and SQL Injection.
+
+INTRODUCTION:
+Web applications are frequently targeted by attackers due to their exposure over the internet. Identifying vulnerabilities early is critical to prevent exploitation.
+
+ABSTRACT:
+This project implements an automated vulnerability scanner that injects test payloads into web applications and analyzes responses to detect security flaws. The system uses HTTP requests and response pattern matching for detection.
+
+METHODOLOGY:
+
+* Input target URL
+* Inject XSS and SQLi payloads
+* Analyze server responses
+* Log vulnerabilities with evidence
+
+TOOLS & TECHNOLOGIES:
+Python, Flask, Requests, BeautifulSoup, Kali Linux
+
+RESULTS:
+The scanner successfully detected reflected XSS and basic SQL error-based vulnerabilities in test environments.
+
+CONCLUSION:
+The project demonstrates practical vulnerability assessment techniques aligned with OWASP Top 10.
+
+FUTURE ENHANCEMENTS:
+
+* Add CSRF detection
+* Integrate crawler for deep scanning
+* Add severity scoring system

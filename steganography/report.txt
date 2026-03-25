@@ -1,0 +1,33 @@
+TITLE: Steganography Tool for Image Data Hiding
+
+OBJECTIVE:
+To hide sensitive information inside images securely.
+
+INTRODUCTION:
+Steganography is the practice of concealing information within digital media.
+
+ABSTRACT:
+This project implements LSB steganography to hide and extract messages from images using Python.
+
+METHODOLOGY:
+1. Convert text to binary
+2. Embed bits in pixel LSB
+3. Save modified image
+4. Extract binary data
+5. Convert back to text
+
+TOOLS USED:
+- Python
+- Pillow
+- Tkinter
+
+RESULTS:
+The system successfully hid and retrieved messages from images.
+
+CONCLUSION:
+This project demonstrates secure data hiding techniques.
+
+FUTURE ENHANCEMENTS:
+- Add encryption before embedding
+- Support multiple formats
+- Improve GUI

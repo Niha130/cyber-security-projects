@@ -1,0 +1,34 @@
+TITLE: Secure File Storage System using AES Encryption
+
+OBJECTIVE:
+To develop a system that securely encrypts and decrypts files while ensuring data integrity.
+
+INTRODUCTION:
+Data security is critical in modern systems. Encryption ensures confidentiality, while hashing ensures integrity.
+
+ABSTRACT:
+This project implements a secure file storage system using AES encryption (Fernet) and SHA-256 hashing. Files are encrypted and stored securely, and integrity is verified using hash values.
+
+METHODOLOGY:
+1. Generate encryption key
+2. Encrypt file using AES
+3. Store encrypted file
+4. Generate SHA-256 hash
+5. Decrypt file when needed
+6. Verify integrity
+
+TOOLS USED:
+- Python
+- cryptography
+- hashlib
+
+RESULTS:
+The system successfully encrypted and decrypted files while maintaining data integrity using hash verification.
+
+CONCLUSION:
+This project demonstrates strong encryption and integrity mechanisms for secure file storage.
+
+FUTURE ENHANCEMENTS:
+- Password-based key derivation
+- Cloud storage integration
+- GUI interface

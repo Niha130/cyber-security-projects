@@ -1,0 +1,33 @@
+TITLE: Keylogger with Encrypted Data Logging
+
+OBJECTIVE:
+To develop a proof-of-concept keylogger that securely logs keystrokes using encryption for educational purposes.
+
+INTRODUCTION:
+Keyloggers are tools that capture user input and are often used in cyberattacks. Understanding how they work helps in designing better security defenses.
+
+ABSTRACT:
+This project implements a keylogger using Python that captures keystrokes and encrypts them before storing. The encryption ensures that logged data remains secure and demonstrates secure data handling.
+
+METHODOLOGY:
+1. Capture keystrokes using pynput
+2. Generate encryption key using Fernet
+3. Encrypt captured data
+4. Store encrypted logs in file
+5. Maintain modular architecture
+
+TOOLS USED:
+- Python
+- pynput
+- cryptography
+
+RESULTS:
+The system successfully captured keystrokes and stored them in encrypted format, preventing direct readability.
+
+CONCLUSION:
+This project demonstrates both offensive and defensive concepts, highlighting risks and secure logging practices.
+
+FUTURE ENHANCEMENTS:
+- Add remote log transmission (simulation)
+- Implement decryption viewer
+- Add GUI dashboard

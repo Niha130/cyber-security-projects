@@ -1,0 +1,32 @@
+TITLE: Honeypot Server for Attack Detection
+
+OBJECTIVE:
+To simulate a vulnerable service and capture attacker interaction data.
+
+INTRODUCTION:
+Honeypots are security mechanisms used to detect and analyze malicious activity.
+
+ABSTRACT:
+This project implements a simple honeypot server that mimics an SSH login service and logs attacker credentials and IP addresses.
+
+METHODOLOGY:
+1. Start socket server
+2. Accept incoming connections
+3. Simulate login prompt
+4. Capture credentials
+5. Log attacker activity
+
+TOOLS USED:
+- Python
+- Socket programming
+
+RESULTS:
+The honeypot successfully captured attacker inputs and logged interactions.
+
+CONCLUSION:
+This project demonstrates how honeypots can be used for threat intelligence and monitoring.
+
+FUTURE ENHANCEMENTS:
+- Add geolocation tracking
+- Integrate with SIEM tools
+- Deploy on cloud server

@@ -1,0 +1,33 @@
+TITLE: Network Packet Sniffer with Anomaly Detection
+
+OBJECTIVE:
+To monitor network traffic and detect suspicious behavior using packet analysis.
+
+INTRODUCTION:
+Network monitoring is a key responsibility of SOC analysts. Detecting abnormal traffic patterns helps prevent cyberattacks.
+
+ABSTRACT:
+This project implements a packet sniffer using Scapy that captures network traffic and analyzes packet frequency. Suspicious activity is detected when traffic exceeds a threshold.
+
+METHODOLOGY:
+1. Capture packets using Scapy
+2. Extract source IP
+3. Count packet frequency per IP
+4. Detect anomalies based on threshold
+5. Log alerts and store data
+
+TOOLS USED:
+- Python
+- Scapy
+- SQLite
+
+RESULTS:
+The system successfully detected high-frequency traffic and generated alerts.
+
+CONCLUSION:
+This project demonstrates real-time network monitoring and anomaly detection techniques.
+
+FUTURE ENHANCEMENTS:
+- Add protocol-based detection
+- Visualize traffic using graphs
+- Integrate machine learning detection

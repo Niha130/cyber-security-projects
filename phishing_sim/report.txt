@@ -1,0 +1,33 @@
+TITLE: Ethical Phishing Simulation Platform
+
+OBJECTIVE:
+To simulate phishing attacks for educational and awareness purposes.
+
+INTRODUCTION:
+Phishing is one of the most common cyberattacks used to steal user credentials. Understanding phishing techniques helps in building better defenses.
+
+ABSTRACT:
+This project creates a simulated phishing platform using Flask. It captures user credentials, logs user activity, and displays results through a dashboard.
+
+METHODOLOGY:
+1. Create phishing login page
+2. Capture user credentials
+3. Store in SQLite database
+4. Track user clicks
+5. Display results in dashboard
+
+TOOLS USED:
+- Python
+- Flask
+- SQLite
+
+RESULTS:
+The system successfully captured test credentials and tracked user interactions.
+
+CONCLUSION:
+This project demonstrates phishing attack techniques and highlights the importance of user awareness.
+
+FUTURE ENHANCEMENTS:
+- Email phishing simulation
+- Analytics dashboard (graphs)
+- User awareness training module

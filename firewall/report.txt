@@ -1,0 +1,33 @@
+TITLE: Python-Based Personal Firewall
+
+OBJECTIVE:
+To develop a lightweight firewall that monitors and filters network traffic based on predefined rules.
+
+INTRODUCTION:
+Firewalls play a crucial role in protecting systems from unauthorized access and malicious traffic by enforcing security policies.
+
+ABSTRACT:
+This project implements a personal firewall using Python and Scapy to capture and analyze network packets in real-time. The system filters traffic based on IP rules and detects suspicious activity patterns.
+
+METHODOLOGY:
+1. Capture packets using Scapy
+2. Extract source IP addresses
+3. Check against blocked IP list
+4. Log blocked and suspicious traffic
+5. Generate alerts for repeated access attempts
+
+TOOLS USED:
+- Python
+- Scapy
+- Kali Linux
+
+RESULTS:
+The firewall successfully monitored network traffic, blocked predefined IPs, and generated alerts for suspicious activity.
+
+CONCLUSION:
+This project demonstrates how packet filtering and monitoring can enhance system security.
+
+FUTURE ENHANCEMENTS:
+- Add port and protocol filtering
+- Integrate GUI dashboard
+- Implement automatic IP blocking using iptables

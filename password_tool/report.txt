@@ -1,0 +1,32 @@
+TITLE: Password Strength Analyzer and Wordlist Generator
+
+OBJECTIVE:
+To evaluate password strength and generate custom wordlists for security testing.
+
+INTRODUCTION:
+Weak passwords are a major vulnerability in cybersecurity. Attackers often exploit predictable patterns.
+
+ABSTRACT:
+This project uses the zxcvbn library to analyze password strength and provides feedback. It also generates custom wordlists based on user inputs to simulate password cracking scenarios.
+
+METHODOLOGY:
+1. Accept password input
+2. Analyze using zxcvbn
+3. Provide strength score and feedback
+4. Generate wordlist using personal data
+5. Save results and logs
+
+TOOLS USED:
+- Python
+- zxcvbn
+
+RESULTS:
+The system successfully evaluated password strength and generated relevant wordlists.
+
+CONCLUSION:
+The project highlights the importance of strong passwords and demonstrates how attackers generate wordlists.
+
+FUTURE ENHANCEMENTS:
+- Add GUI interface
+- Integrate dictionary attacks
+- Export results in multiple formats

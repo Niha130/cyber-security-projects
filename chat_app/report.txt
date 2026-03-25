@@ -1,0 +1,34 @@
+TITLE: Secure Chat Application with End-to-End Encryption
+
+OBJECTIVE:
+To develop a real-time chat application with encrypted communication.
+
+INTRODUCTION:
+Secure communication is essential to protect sensitive information from interception.
+
+ABSTRACT:
+This project implements a chat system using Flask-SocketIO and AES encryption. Messages are encrypted before transmission and decrypted at the receiver side.
+
+METHODOLOGY:
+1. Establish socket connection
+2. Generate encryption key
+3. Encrypt messages before sending
+4. Decrypt messages on receiving
+5. Log communication
+
+TOOLS USED:
+- Python
+- Flask
+- SocketIO
+- cryptography
+
+RESULTS:
+The application successfully enabled secure real-time communication between users.
+
+CONCLUSION:
+This project demonstrates encryption in real-time systems and secure communication practices.
+
+FUTURE ENHANCEMENTS:
+- Implement RSA key exchange
+- Add user authentication
+- Deploy on cloud

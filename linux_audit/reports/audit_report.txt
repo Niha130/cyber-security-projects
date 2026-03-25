@@ -1,0 +1,4 @@
+Firewall Enabled: FAIL
+SSH Root Login Disabled: PASS
+/etc/shadow Secure: PASS
+/etc/passwd Secure: PASS

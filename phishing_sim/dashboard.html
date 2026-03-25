@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard</title></head>
+<body>
+<h2>Captured Credentials</h2>
+
+{% for user in users %}
+<p>{{user[0]}} : {{user[1]}}</p>
+{% endfor %}
+
+<a href="/">Back</a>
+</body>
+</html>

@@ -1,0 +1,34 @@
+TITLE: Cyber Threat Intelligence Dashboard
+
+OBJECTIVE:
+To develop a dashboard that provides real-time threat intelligence data.
+
+INTRODUCTION:
+Cyber Threat Intelligence (CTI) helps organizations identify and mitigate threats using data-driven insights.
+
+ABSTRACT:
+This project integrates external threat intelligence APIs to fetch IP reputation data and display it via a web dashboard.
+
+METHODOLOGY:
+1. Accept user input (IP)
+2. Query threat intelligence API
+3. Process response
+4. Display results
+5. Store logs and history
+
+TOOLS USED:
+- Python
+- Flask
+- Requests
+- SQLite
+
+RESULTS:
+The system successfully retrieved and displayed threat intelligence data for input IP addresses.
+
+CONCLUSION:
+This project demonstrates integration of CTI feeds into practical security tools.
+
+FUTURE ENHANCEMENTS:
+- Add multiple threat APIs
+- Visual dashboard charts
+- IOC feed integration

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+</head>
+<body>
+    <h2>Scan Results for {{url}}</h2>
+
+    {% if results %}
+        {% for r in results %}
+            <p>{{r[0]}} detected using payload: {{r[1]}}</p>
+        {% endfor %}
+    {% else %}
+        <p>No vulnerabilities detected</p>
+    {% endif %}
+
+    <a href="/">Back</a>
+</body>
+</html>

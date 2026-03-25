@@ -1,0 +1,33 @@
+TITLE: Log File Analyzer for Intrusion Detection
+
+OBJECTIVE:
+To detect suspicious activities in log files through analysis and pattern recognition.
+
+INTRODUCTION:
+Log analysis is crucial in cybersecurity for detecting unauthorized access and attack patterns.
+
+ABSTRACT:
+This project parses log files, detects brute-force attacks, and visualizes traffic patterns using Python.
+
+METHODOLOGY:
+1. Read log file
+2. Extract IP and activity
+3. Count requests per IP
+4. Detect anomalies
+5. Generate report and visualization
+
+TOOLS USED:
+- Python
+- pandas
+- matplotlib
+
+RESULTS:
+The system successfully identified suspicious IPs and generated alerts.
+
+CONCLUSION:
+This project demonstrates how log analysis can help detect cyber threats.
+
+FUTURE ENHANCEMENTS:
+- Add real-time log monitoring
+- Integrate threat intelligence feeds
+- Improve detection rules
